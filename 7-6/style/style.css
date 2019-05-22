@@ -1,0 +1,170 @@
+body{                               /* 页面整体的CSS规则 */
+    margin: 0;                      /*外边距为0px*/
+    padding: 0;                     /*内边距为0px*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #585858;
+    background-color: #ededed;
+}
+
+a:link,a:visited{                   /*正常链接  访问过链接的样式*/
+    color: #060;
+    text-decoration: none;          /*链接无修饰*/
+}
+
+a:active,a:hover{                   /*鼠标按下 鼠标悬停链接的样式*/
+    color: #c00;
+    text-decoration: none;          /*链接无修饰*/
+}
+h1{                                 /*一次标题CSS规则*/
+    font-size: 22px;
+    font-weight: bold;
+    color: #38713a;
+    height: 32px;
+    background: url(../images/header1.jpg)no-repeat;
+    padding: 15px 0px 0px 55px;     /*上、右、下、左的内边距依次为 15px 0px 0px 55px*/
+
+}
+
+h2{                                  /*二次标题CSS规则*/
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #56b81b;
+    height: 20px;
+    padding: 7px 0px 0px 35px;      /*上、右、下、左的内边距依次为 7px 0px 0px 35px*/
+    background:url(../images/header2.jpg)no-repeat;
+}
+
+#container{
+    width: 900px;
+    margin:auto;
+    background-color: #fff;
+}
+
+#top{
+    float: left;
+    width: 900px;
+    height: 50px;
+    background: url(../images/menu.jpg)no-repeat;
+}
+.top_menu{
+    float: right;
+    width: 580px;
+    padding-right: 20px;
+}
+.top_menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.top_menu li{
+    display: inline;
+}
+.top_menu li a{
+    float: left;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    width: 77px;
+    height: 30px;
+    padding: 14px 0px 0px 5px;
+}
+.top_menu li a:hover{
+    color: #91e30c;
+    text-decoration: underline;
+}
+#header{
+    float: left;
+    width: 410px;
+    height: 180px;
+    color: #fff;
+    text-align: justify;
+    font-size: 11px;
+    padding: 63px 140px 0px 350px;
+    background: url(../images/header.jpg)no-repeat;
+}
+#header span{
+    font-size: 18px;
+    font-weight: bold;
+}
+#welcome{
+    float: left;
+    width: 800px;
+    text-align: justify;
+    padding: 0px 50px 0px 50px;
+}
+#welcome img{
+    float: left;
+    padding-right: 10px;
+}
+#boxleft{
+    float: left;
+    width: 400px;
+    padding-left: 50px;
+}
+#boxright{
+    float: left;
+    width: 430px;
+    padding-left: 20px;
+}
+#footer{
+    clear: both;        /*清楚浮动*/
+    width: 900px;
+    height: 23px;
+    margin-top: 20px;
+    background-color:#cbf0bb;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.more_button_1 {
+    background: url(../images/morebutton1.jpg) no-repeat;
+    font-size: 11px;
+    height: 39px;
+    width: 62px;
+    padding: 8px 0px 0px 20px;
+    font-weight: bold;
+}
+.more_button_1 a{
+    color: #fff;
+}
+.more_button_2{
+    float: right;
+    background: url(../images/morebutton2.jpg)no-repeat;
+    width: 51px;
+    height: 28px;
+    font-size: 10px;
+    padding: 5px 0px 0px 10px;
+}
+.more_button_2 a{
+    font-weight: bold;
+    color: #fff;
+}
+.box_left{
+    float: left;
+    width: 23px;
+    height: 253px;
+    background: url(../images/box_left.jpg)no-repeat;
+}
+.box_middle{
+    float: left;
+    width: 330px;
+    height: 253px;
+    text-align: justify;
+    padding: 0px 5px 0px 5px;
+    background: url(../images/box_middle.jpg)repeat-x;
+}
+.box_middle img{
+    float: left;
+    padding-right: 10px;
+}
+
+.box_right{
+    float: left;
+    width: 23px;
+    height: 253;
+    background: url(../images/box_right.jpg)no-repeat;
+}
